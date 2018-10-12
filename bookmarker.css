@@ -1,0 +1,30 @@
+body{
+	background: url(KingYna.jpg);
+
+}
+
+.container{
+    width:80% ;
+    margin:auto;
+}
+
+.h3{
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}	
+
+.h2{
+
+} /* add padding to this heading...I want more it to be left-aligned,
+	with more space between site name */
+
+.label {
+	text-decoration: bold;
+	
+}
+
+footer {
+	color: white;
+	font-size: 12px;
+}
