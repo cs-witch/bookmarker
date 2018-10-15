@@ -26,7 +26,7 @@
 		<h3 class="animated pulse h3">Bookmarker</h3>
 		<div class="jumbotron">
 			<h2 class="display-4">Bookmark Your Favorite Sites</h2>
-			<form>
+			<form id="myForm">
 				<div class="form-group">
 					<label for="siteName">Site Name</label>
 					<input type="text" class="form-control" name="siteName" id="siteName" placeholder="Enter Site Name...">
@@ -39,11 +39,11 @@
 				<button type="submit" class ="btn btn-success">Submit</button> 
 			</form>
 		</div>
-		<!-- each time we add or delete a bookmark it will use this div id -->	
-		<div id="bookmarksResult"></div> 
+		<!-- each time we add or delete a bookmark it will use this div id. add a class to it -->	
+		<div class="outputDiv" id="bookmarksResult"></div> 
 		<footer class="footer">&copy; 2018 Bookmarker</footer>
 	</div>	
-<script type="text/javascript" href="script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html> 

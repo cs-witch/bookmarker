@@ -24,6 +24,11 @@ body{
 	
 }
 
+.outputDiv {
+	color: white;
+	font-size: 14pt;
+}
+
 footer {
 	color: white;
 	font-size: 12px;
